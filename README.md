@@ -1,119 +1,32 @@
-<p align="center">
-  <img src="banner.jpg" alt="Anwar Bengawi | Data & AI Portfolio Banner"
-       width="100%" style="border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" />
-</p>
+Data Analytics Portfolio
+This portfolio includes a collection of foundational analytics work completed during my transition from a long career in finance into applied data and AI. The projects show how I work with real datasets, prepare them for analysis, and communicate insights in a clear and simple way. These early projects helped me build the base needed for more advanced work in computer vision, natural language processing, and full-stack data systems.
+About This Portfolio
+The purpose of this portfolio is to demonstrate practical skills in data extraction, cleaning, exploratory analysis, and introductory machine learning. Most of the work here is done in Python using tools such as Pandas, Matplotlib, and Jupyter Notebook.
+Coming from a finance background, I approached these projects the same way I approached financial reports: start with raw information, make it clean and reliable, explore it carefully, and explain what it means. This portfolio represents the first step in my journey into applied AI and supports the direction I am taking toward more technical roles and further studies.
+Project Structure
+This portfolio contains three main projects, each focusing on a different part of the analytics process.
+Data Extraction and Cleaning
+Notebook: 02_data_extraction.ipynb
+This project covers loading and combining information from CSV and JSON files. It includes practical cleaning steps such as handling missing values, correcting column formats, and preparing the data for the next stage of analysis.
+Exploratory Data Analysis
+Notebook: 03_eda.ipynb
+This notebook explores the cleaned dataset to understand its structure and identify meaningful patterns. It includes descriptive statistics and visualizations that help explain the relationships within the data.
+Introductory Machine Learning
+Notebook: Titanic_Logistic_Regression.ipynb
+This work applies a basic logistic regression model to the Titanic dataset. It includes model training, evaluation using common metrics, and a short interpretation of the results.
+These projects reflect the foundation of my learning. The skills gained here supported my later work with larger and more complex projects such as object detection with YOLOv5, fabric classification with EfficientNet, and a full-stack sentiment analysis system.
+Skills Demonstrated
+This portfolio shows practical experience with:
+Python programming
+Data extraction from CSV and JSON files
+Data cleaning and preparation
+Exploratory data analysis
+Simple data visualizations
+Basic machine learning techniques
+Clear project documentation
+Organized project structure on GitHub
+These skills connect directly to the requirements of modern analytics and AI work.
 
-# 🎯 Career Portfolio – Data Analysis Projects
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anwar-ali-07484083)
-
-**Author:** Anwar Bengawi  
-**Course:** Career Planning and Portfolio Development  
-**Institution:** George Brown College  
-**Program:** Applied AI Solutions Development  
-**Date:** Fall 2025  
-
----
-
-## 📘 About This Portfolio
-
-This repository is part of my *Career Planning and Portfolio Development* course.  
-It showcases my technical and professional growth through weekly data analysis activities, covering topics such as data extraction, cleaning, and exploratory data analysis (EDA).
-
-Each notebook reflects practical work in **Python**, **Pandas**, **Jupyter**, and **GitHub**, integrated into my professional portfolio.
-
----
-
-## 📂 Weekly Work
-
-| Week | Topic | Notebook | Description |
-|------|--------|-----------|-------------|
-| Week 1 | GitHub Setup & Orientation | — | Created GitHub profile and learned repo basics |
-| Week 2 | Data Extraction | [week2_data_extraction.ipynb](./week2_data_extraction.ipynb) | Imported and combined data from CSV and JSON sources |
-| Week 3 | Exploratory Data Analysis (EDA) | [week3_eda.ipynb](./week3_eda.ipynb) | Visualized and explored data metrics using Pandas & Seaborn |
-
----
-
-## 🧠 Key Skills Demonstrated
-
-- Git & GitHub workflow  
-- Jupyter Notebook workflow  
-- Data Extraction (CSV, JSON, APIs)  
-- Data Cleaning and Transformation  
-- Exploratory Data Analysis (EDA)  
-- Data Visualization with Matplotlib and Seaborn  
-
----
-
-## 🧾 Reflection
-
-Through these projects, I developed stronger technical confidence in managing datasets, performing EDA, and collaborating using GitHub.  
-This experience also enhanced my understanding of real-world data handling and visualization in a professional workflow.
-
----
-
-## 🔗 Connect with Me
-
-- 📧 Email: **anwar.beng74@gmail.com**  
-- 💼 LinkedIn: [linkedin.com/in/anwar-ali-07484083](https://www.linkedin.com/in/anwar-ali-07484083)  
-- 🌐 GitHub: [bengawi74](https://github.com/bengawi74)
-
-## 🎓 Week 4 — Portfolio Showcase Summary
-
-### Career Summary
-Finance and operations leader transitioning into Data & Applied AI. I bring 18 years of financial management experience (budgeting, forecasting, consolidation, IFRS conversion) and I’m now applying modern analytics to real business problems through the Applied AI Solutions Development program at George Brown College.
-
-My portfolio demonstrates hands-on skills in Python, Pandas, Jupyter, Git/GitHub, data extraction (CSV/JSON), exploratory data analysis, and clear communication of results. I’m seeking roles in Ontario such as **Data Analyst / Business Data Analyst / Financial Data Analyst**, where I can combine finance domain expertise with analytics to drive decisions.
-
-### Skills and Strengths
-- Strong analytical mindset with a finance and accounting foundation  
-- Skilled in data extraction, cleaning, transformation, and visualization  
-- Proficient in Python, Pandas, Matplotlib, and Seaborn  
-- Experienced with Git/GitHub workflows and version control  
-- Detail-oriented with a focus on accuracy and data integrity  
-- Excellent communication and presentation of data insights  
-- Committed to continuous learning in Applied AI and data analytics
-
-- ## Professional Reflection
-Through this portfolio, I’ve strengthened my technical confidence in managing and analyzing datasets using Python and Jupyter.  
-Each week built upon core data analysis concepts, from extraction and cleaning to exploratory analysis and visualization.  
-
-Coming from a strong financial background, this transition into data analytics has shown me how data-driven insights can enhance financial forecasting, operational planning, and strategic decision-making.  
-I now approach problem-solving with a balance of domain expertise and analytical precision, preparing for a career in data analytics that integrates business understanding with AI-powered tools.
-
-# Supervised Learning — Regression (Week 5)
-
-**Goal:** build a classical ML model end-to-end and report results clearly.
-
-## Dataset
-- Titanic survival (binary outcome) – using logistic regression as the week’s regression task.
-
-## What this repo contains
-- `Titanic_Logistic_Regression.ipynb` — main notebook
-- `requirements.txt` — dependencies (multi-OS friendly to install cleanly)
-- `data/` (optional) — put local copies here if needed
-
-## Tasks (checklist)
-- [ ] Load & clean data
-- [ ] Exploratory features (brief)
-- [ ] Train/test split
-- [ ] Train logistic regression
-- [ ] Evaluate with accuracy, precision, recall, F1
-- [ ] Confusion matrix + brief interpretation
-- [ ] Short result summary in this README
-
-## How to run (local)
-```bash
-python3 -m pip install --upgrade pip
-pip install -r requirements.txt
-jupyter notebook
-
-## 📚 Table of Contents
-1. [About This Portfolio](#about-this-portfolio)
-2. [Weekly Work](#weekly-work)
-3. [Key Skills Demonstrated](#key-skills-demonstrated)
-4. [Reflection](#reflection)
-5. [Week 4 – Portfolio Showcase Summary](#week-4--portfolio-showcase-summary)
-
----
-
-**© 2025 Anwar Bengawi | All Rights Reserved**
+Reflection
+Working through these projects helped me build confidence with core data tools and workflows. I learned how important it is to clean data properly, document each step, and understand the story behind the numbers. This work also helped me see how my finance background fits naturally with analytics. The same attention to detail, accuracy, and consistency that I used in budgeting and reporting is useful when working with datasets and building models.
+This portfolio marks the beginning of my applied AI journey. Since completing these foundational projects, I have moved on to more advanced work in deep learning, model training, and full-stack systems, and I continue to build toward my goal of joining the MMAI program and working in applied AI.
